@@ -2,7 +2,7 @@
 
 **first part**
 
-Implementation of the hello-world tutorial explained at https://myreli.dev/blog/2020/05/16/Hello-World-Deno.html 
+Implementation of the hello-world tutorial explained at https://myreli.dev/blog/2020/05/16/Hello-World-Deno.html (parte 2)
 
 ## requirements
 ```shell
@@ -15,7 +15,7 @@ typescript 3.9.2
 
 ```shell
 # clone this branch
-git clone <url> --branch first-part --single-branch
+git clone https://github.com/myreli/hello-deno-harry-potter.git --branch first-part --single-branch
 # change directory 
 cd hello-deno-harry-potter
 # run
