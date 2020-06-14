@@ -1,3 +1,6 @@
 # hello-deno-harry-potter
 
-[First Part](https://github.com/myreli/hello-deno-harry-potter/tree/first-part)
+[https://myreli.dev/blog/2020/05/16/Hello-World-Deno.html](https://myreli.dev/blog/2020/05/16/Hello-World-Deno.html)
+
+## Code
+- [First Part](https://github.com/myreli/hello-deno-harry-potter/tree/first-part)
