@@ -1,11 +1,21 @@
-const args = Deno.args
+import identifyStudent from "./student.ts";
+import saveSortingHatDecision from "./log.service.ts";
+import identifyHouse from "./sorting_hat.service.ts";
 
-if (!args.length)
-    throw new Error('Oops... I am just a CLI, I can not guess your name :(')
+const args = Deno.args;
 
-if (args.length > 1)
-    throw new Error('Oops... I can only handle one student at a time :(')
+try {
+  const student: String = identifyStudent(args);
+  console.info(`Olá, ${student}! Vamos começar?`);
 
-const student: String = args[0]
+  const house: String = await identifyHouse(student);
+  console.info(`${student}... Você é de ${house}!`);
 
-console.info(`Hello, ${student}! Shall we?`)
+  await saveSortingHatDecision(student, house);
+  console.info(`Tudo certo, ${student}. Pode ir :)`);
+} catch (error) {
+  console.error(
+    `Um erro impediu que a seleção fosse concluída: ${error.message}`,
+  );
+  throw error;
+}
