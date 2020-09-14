@@ -1,17 +1,20 @@
 # hello-deno-harry-potter
 
-**2nd: hello web apis**
-
 Implementation of the hello-world tutorial explained at https://myreli.dev/blog/2020/05/16/Hello-World-Deno.html 
 
-## requirements
+## Articles
+- [Hello World Deno](https://github.com/myreli/hello-deno-harry-potter/tree/first-part)
+- [Hello World Deno - Parte 2 - Web API](https://github.com/myreli/hello-deno-harry-potter/tree/hello-web-apis)
+
+
+## Requirements
 ```shell
 deno 1.0.0
 v8 8.4.300
 typescript 3.9.2
 ```
 
-## get it 
+## Up & Running
 
 ```shell
 # clone this branch
