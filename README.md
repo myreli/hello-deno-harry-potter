@@ -1,13 +1,14 @@
 # hello-deno-harry-potter
 
-Implementation of the hello-world tutorial explained at [https://myreli.dev/blog/2020/05/16/Hello-World-Deno.html]
+Implementação do tutorial [Hello World Deno](https://myreli.dev/blog/2020/05/16/Hello-World-Deno.html).
 
-## Articles
+## Outras versões
 
-- [Hello World Deno](https://github.com/myreli/hello-deno-harry-potter/tree/first-part)
-- [Hello World Deno - Parte 2 - Web API](https://github.com/myreli/hello-deno-harry-potter/tree/hello-web-apis)
+- [Hello World, Deno! - Parte 2 - Iniciando uma aplicação](https://github.com/myreli/hello-deno-harry-potter/tree/hello-deno)
+- [Hello World, Deno! - Parte 3 - Visitando APIs Web](https://github.com/myreli/hello-deno-harry-potter/tree/hello-web-apis)
+- [Hello World, Deno! - Parte 4 - Visitando APIS Nativas](https://github.com/myreli/hello-deno-harry-potter/tree/hello-native-apis)
 
-## Requirements
+## Requisitos
 
 ```shell
 deno 1.0.0
@@ -18,10 +19,10 @@ typescript 3.9.2
 ## Up & Running
 
 ```shell
-# clone this branch
-git clone <url> --branch hello-web-apis --single-branch
+# clone this repo
+git clone https://github.com/myreli/hello-deno-harry-potter.git
 # change directory
 cd hello-deno-harry-potter
 # run
-deno run mod.ts
+deno run --allow-net --allow-write mod.ts hermione
 ```
