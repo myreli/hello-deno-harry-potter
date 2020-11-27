@@ -1,14 +1,14 @@
-import identifyStudent from "./student.ts";
-import saveSortingHatDecision from "./log.service.ts";
-import identifyHouse from "./sorting_hat.service.ts";
+import identifyStudent from "./core/student.ts";
+import saveSortingHatDecision from "./services/log.service.ts";
+import identifyHouse from "./services/sorting_hat.service.ts";
 
 const args = Deno.args;
 
 try {
-  const student: String = identifyStudent(args);
+  const student: string = identifyStudent(args);
   console.info(`Olá, ${student}! Vamos começar?`);
 
-  const house: String = await identifyHouse(student);
+  const house: string = await identifyHouse(student);
   console.info(`${student}... Você é de ${house}!`);
 
   await saveSortingHatDecision(student, house);

@@ -7,6 +7,7 @@ Implementação do tutorial [Hello World Deno](https://myreli.dev/blog/2020/05/1
 - [Hello World, Deno! - Parte 2 - Iniciando uma aplicação](https://github.com/myreli/hello-deno-harry-potter/tree/hello-deno)
 - [Hello World, Deno! - Parte 3 - Visitando APIs Web](https://github.com/myreli/hello-deno-harry-potter/tree/hello-web-apis)
 - [Hello World, Deno! - Parte 4 - Visitando APIS Nativas](https://github.com/myreli/hello-deno-harry-potter/tree/hello-native-apis)
+- [Hello World, Deno! - Parte 5 - Considerações Finais](https://github.com/myreli/hello-deno-harry-potter/tree/setup-and-testing)
 
 ## Requisitos
 
@@ -25,4 +26,6 @@ git clone https://github.com/myreli/hello-deno-harry-potter.git
 cd hello-deno-harry-potter
 # run
 deno run --allow-net --allow-write mod.ts hermione
+# test 
+deno test
 ```
