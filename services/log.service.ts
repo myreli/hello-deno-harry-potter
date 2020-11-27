@@ -1,4 +1,4 @@
-export default async (student: String, house: String): Promise<void> => {
+export default async (student: string, house: string): Promise<void> => {
     console.debug('registrando', student, house, Date.now())
     return Deno.writeTextFile(
         "./app.log",
